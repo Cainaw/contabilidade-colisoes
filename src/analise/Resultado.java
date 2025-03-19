@@ -1,10 +1,15 @@
 package analise;
 
+import java.util.List;
+
+import util.VetorRandomico;
+
 public class Resultado {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		VetorRandomico vr = new VetorRandomico(1000000);
+		List<Integer> listaGerada = vr.getLista();
+		
 	}
 
 }
