@@ -13,7 +13,7 @@ public class VetorRandomico {
 		Set<Integer> listaTemporaria = new HashSet<>();
 		
         while (listaTemporaria.size() < tamanho) {
-            int valor = aleatorio.nextInt(tamanho * 10);
+            int valor = aleatorio.nextInt(tamanho * 1000);
             listaTemporaria.add(valor);
         }
         
