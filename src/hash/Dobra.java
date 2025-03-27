@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Set;
 
 
-public class Dobra {
+public class Dobra implements Modelo {
     public int calculoColisoes(List<Integer> lista) {
     	// Caso a lista seja nula, retorna -1
     	if (lista != null) {

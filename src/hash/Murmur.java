@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Set;
 
-public class Murmur {
+public class Murmur implements Modelo {
 	public int calculoColisoes(List<Integer> lista) {
 		if (lista != null) {
 			Set<Integer> listaTeste = new HashSet<>();
